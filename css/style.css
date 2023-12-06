@@ -8,7 +8,7 @@ html{
     height:100%;
 }
 
-.main{
+.wholediv{
 
     width: 100%;
     background: url(/pic/bg.jpg);
@@ -33,11 +33,14 @@ body{
     justify-content: space-between;
 }
 
+.navitem{
+    margin-top: -5%;
+    font-size: 50   px;
+}
+
 .navbar .logo{
     width: 160px;
-    cursor: pointer;
-    margin-top: -3%;
-    margin-left: -2%;
+  
 }
 
 ul{
@@ -101,57 +104,10 @@ ul li a:hover{
     background:red;
 }
 
-.aboutme{
-    min-height: 100%;
-    padding-top: 15px;
-    padding-bottom:80px;
-    text-decoration:  none;
-    color:black;
-    background:white;
-    margin-left:7%;
-    border-radius: 10px;
-}
-.aboutme h1{
-    
-    font-size: 40px;
-    letter-spacing: 1px;
-    line-height: 24px;
-}
 
-.aboutme h3{
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 24px;
 
-}
-.aboutme span{
-    color: red;
-}
 
-.education h1{
-    padding-bottom:15px;
-    padding-left:6%;
-    font-size: 40px;
-    letter-spacing: 1px;
-    line-height: 24px;
-}
 
-.tablet{
-    padding-left: 6%;
-}
-tr:hover{
-    background-color: grey;
-}
-.table1 table,td,th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 60px;
-    height: 50px;
-    font-size: 18px;
-    margin-bottom: 10%;
-    
-   
-}
 
 .skillz h1{
     

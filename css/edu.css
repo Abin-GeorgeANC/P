@@ -1,0 +1,54 @@
+
+
+.education{
+    padding-top:6%;
+
+}
+
+
+.education h1{
+
+    
+    padding-bottom:15px;
+    padding-left:6%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.education span{
+    color: red;
+}
+
+
+
+.tablet{
+    padding-left: 6%;
+    padding-bottom:15px;
+}
+tr:hover{
+    background-color: grey;
+}
+
+table,tr,th,td 
+{ 
+    width: 100%s;
+    border: 2px solid;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+th,tr,td{
+    height: 70px;
+    width: 150px;
+}
+
+
+/*.table1 table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10%; 
+}*/

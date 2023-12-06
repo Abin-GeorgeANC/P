@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutme{
+
+    text-decoration:  none;
+    color:black;
+    margin-left:7%;
+    border-radius: 10px;
+    width: fit-content;
+}
+.aboutme h1{
+    
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+
+.aboutme h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+}
+.aboutme span{
+    color: red;
+}
