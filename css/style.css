@@ -89,6 +89,9 @@ ul li a:hover{
     color:red;
 }
 
+.active {
+    color : red;
+}
 
 #hihi{
     margin-left:1%;
