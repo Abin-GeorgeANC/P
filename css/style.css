@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    height:100%;
+}
+
+.main{
+
+    width: 100%;
+    background: url(/pic/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: sans-serif;
+
+}
+
+body{
+    height: 100%;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    margin-left:1%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color:red;
+}
+
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.info a:hover{
+    background:red;
+}
+
+.aboutme{
+    min-height: 100%;
+    padding-top: 15px;
+    padding-bottom:80px;
+    text-decoration:  none;
+    color:black;
+    background:white;
+    margin-left:7%;
+    border-radius: 10px;
+}
+.aboutme h1{
+    
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.aboutme h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+}
+.aboutme span{
+    color: red;
+}
+
+.education h1{
+    padding-bottom:15px;
+    padding-left:6%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.tablet{
+    padding-left: 6%;
+}
+tr:hover{
+    background-color: grey;
+}
+.table1 table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10%;
+    
+   
+}
+
+.skillz h1{
+    
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+ ul{
+    list-style-type: circle;
+}
+.skilly{
+    padding-top: 2%;
+    margin-left: 7%;
+
+}
+.skillist{
+    padding-top: 40px;
+    
+
+}
+
+section{
+    height:100vh;
+}
