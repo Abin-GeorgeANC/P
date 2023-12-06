@@ -1,15 +1,15 @@
 
 
 .education{
-    padding-top:6%;
-
+    padding-top:3%;
+    
 }
 
 
 .education h1{
 
     
-    padding-bottom:15px;
+    padding-bottom:17px;
     padding-left:6%;
     font-size: 40px;
     letter-spacing: 1px;
@@ -27,8 +27,9 @@
     padding-bottom:15px;
 }
 tr:hover{
-    background-color: grey;
+    background-color: rgb(212, 59, 48);
 }
+
 
 table,tr,th,td 
 { 
@@ -36,11 +37,12 @@ table,tr,th,td
     border: 2px solid;
     border-collapse:collapse;
     text-align: center;
+
 }
 
 th,tr,td{
     height: 70px;
-    width: 150px;
+    width: 170px;
 }
 
 
